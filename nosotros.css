@@ -1,0 +1,41 @@
+
+*{
+    font-size: 1.08em;
+}
+#titulo-nosotros{
+    color: #f50057;
+    align-content: center;
+    text-align: center;
+    font-size: 1.12em;
+}
+
+.grupo{
+    margin: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto{
+    flex: 0 0 75%;
+    padding: 10px;
+    align-items: center;
+}
+
+.imagen{
+    flex: 0 0 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imagen img {
+    width: 50%; /* Se ajusta al ancho del div */
+    height: 50%; /* Se ajusta a la altura del div */
+    object-fit: contain; /* La imagen se ve completa y mantiene su proporción */
+}
+
+#texto2{
+    text-align: end;
+}
